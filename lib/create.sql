@@ -1,8 +1,7 @@
 CREATE TABLE 'projects' (
   id INTEGER PRIMARY KEY,
   title TEXT,
-  name TEXT,
-  age INTEGER);
+  
   
 CREATE TABLE users (
   id INTEGER PRIMARY KEY,
@@ -10,7 +9,8 @@ CREATE TABLE users (
   funding_goal INTEGER,
   start_date DATE,
   end_date DATE);
-  
+  name TEXT,
+  age INTEGER);
 CREATE TABLE pledges (
   id  INTEGER PRIMARY KEY,
   amount  MONEY,
